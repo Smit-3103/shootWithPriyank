@@ -228,18 +228,41 @@
     width: 0;
   }
 
-.servicesSection{
-  background: linear-gradient(#00000042 ,#00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
-  background-attachment: fixed;
-}
- .servicesSection {
-  text-align: center;
- }
- .servicesSection .maxPara{
-  text-align: center;
-  margin-left: auto;
+  .servicesSection {
+    position: relative;
+    clip-path: inset(0);
+    background: none;
+  }
+
+  .servicesSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .servicesSection::before {
+      position: fixed;
+      height: 100vh;
+      background-attachment: scroll;
+    }
+  }
+
+  .servicesSection {
+    text-align: center;
+  }
+
+  .servicesSection .maxPara {
+    text-align: center;
+    margin-left: auto;
     margin-right: auto;
- }
+  }
 
   .contactSection {
     position: relative;
