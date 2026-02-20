@@ -644,8 +644,8 @@ header {
   margin-bottom: 24px;
 }
 
-.servicesSection {
-  background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
+.servicesSection{
+  background: linear-gradient(#00000042 ,#00000042 ) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
   background-attachment: fixed;
 }
 
@@ -696,16 +696,16 @@ header {
   background: linear-gradient(#00000000 24%, #000000a2 86%), url('../image/Commercial.webp') center/cover no-repeat;
 }
 
-.servicesSection {
-  color: #ffffff;
-  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.733);
-}
+    .servicesSection{
+      color: #ffffff;
+      text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.733);
+    }
 
-.servicesSection .maxPara {
-  text-align: left;
-  max-width: 400px;
-  margin-left: unset;
-}
+    .servicesSection .maxPara{
+      text-align: left;
+      max-width: 400px;
+      margin-left: unset;
+    }
 
 .anchorText {
   display: inline-block;
@@ -718,11 +718,10 @@ header {
   color: #ffffff;
 }
 
-.servicesSection .anchorText {
-  width: 300px;
-  text-align: center;
-}
-
+.servicesSection .anchorText{
+        width: 300px;
+        text-align: center;
+      }
 
 /* testimonials  */
 
