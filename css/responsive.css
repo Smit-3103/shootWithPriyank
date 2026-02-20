@@ -244,20 +244,33 @@
   }
 
   .contactSection {
-    background: url('../image/HomeContactBack.webp') top right -160px /cover no-repeat;
-    background-attachment: fixed;
+    position: relative;
+    clip-path: inset(0);
+    background: none;
+    /* Background moved to pseudo-element */
   }
 
-  .contactSection.contactPage0 {
-    background: url('../image/contactBack.webp') top 0 left -150px/cover no-repeat;
+  .contactSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../image/HomeContactBack.webp') top right -160px / cover no-repeat;
     background-attachment: fixed;
+    z-index: -1;
+  }
+
+  .contactSection.contactPage0::before {
+    background: url('../image/contactBack.webp') top 0 left -150px / cover no-repeat;
   }
 
   @supports (-webkit-touch-callout: none) {
-
-    .contactSection,
-    .contactSection.contactPage0 {
-      background-attachment: scroll !important;
+    .contactSection::before {
+      position: fixed;
+      height: 100vh;
+      background-attachment: scroll;
     }
   }
 
