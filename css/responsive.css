@@ -253,6 +253,14 @@
     background-attachment: fixed;
   }
 
+  @supports (-webkit-touch-callout: none) {
+
+    .contactSection,
+    .contactSection.contactPage0 {
+      background-attachment: scroll !important;
+    }
+  }
+
   .servicesSwiper {
     margin-left: auto;
     margin-right: auto;

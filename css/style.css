@@ -645,29 +645,15 @@ header {
 }
 
 .servicesSection {
-  position: relative;
-  overflow: hidden;
+  background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
+  background-attachment: fixed;
   color: #ffffff;
   text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.733);
 }
 
-.servicesSection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
-  background-attachment: fixed;
-  z-index: -1;
-}
-
 @supports (-webkit-touch-callout: none) {
-  .servicesSection::before {
-    background-attachment: scroll;
-    height: 100vh;
-    position: fixed;
+  .servicesSection {
+    background-attachment: scroll !important;
   }
 }
 
@@ -950,27 +936,13 @@ header {
 }
 
 .contactSection {
-  position: relative;
-  overflow: hidden;
-}
-
-.contactSection::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: url('../image/HomeContactBack.webp') center/cover no-repeat;
   background-attachment: fixed;
-  z-index: -1;
 }
 
 @supports (-webkit-touch-callout: none) {
-  .contactSection::before {
-    background-attachment: scroll;
-    height: 100vh;
-    position: fixed;
+  .contactSection {
+    background-attachment: scroll !important;
   }
 }
 
