@@ -647,11 +647,7 @@ header {
 .servicesSection {
   background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
   background-attachment: fixed;
-  color: #ffffff;
-  text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.733);
 }
-
-/* Reverting iOS override for servicesSection as requested by user */
 
 
 
