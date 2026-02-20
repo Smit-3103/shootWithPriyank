@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videos | Shoot With Priyank</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="image/Fevicon.webp" />
+    <!-- Meta Robots (SEO Indexing): -->
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Description">
+    <meta name="keywords" content="Keywords">
+    <meta name="author" content="Author Name">
+
+    <!-- Open Graph (Social Media Sharing) -->
+    <meta property="og:title" content="title">
+    <meta property="og:description" content="Description">
+    <meta property="og:image" content="With URL og-image-(1200 x 630 px).jpg">
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="Website URL">
+    <meta property="og:type" content="website">
+
+    <link fetchpriority="high" rel="preload" href="image/PriyankLogo.webp" as="image" type="image/webp" />
+    <link fetchpriority="high" rel="preload" href="image/VideoGraphy.webp" as="image" type="image/webp" />
+
+    <!-- Preload -->
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="preload" as="style" href="css/style.css" />
+    <link rel="preload" as="style" href="css/responsive.css" />
+
+    <!-- Animate.css -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script  src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  </head>
+
+  <body>
+    
+    <!-- header start -->
+    <header>
+      <div class="wrapheder">
+        <div id="header">
+
+          <div id="main-header">
+            <nav class="mynavbar bg-light">
+              <div class="container header">
+                <a class="brandLogo" href="index.html">
+                  <img src="image/PriyankLogo.webp" alt="Shoot With Priyank">
+                </a>
+                <button class="navToggle">
+                  <span class="iconify" data-icon="fa7-solid:bars" data-inline="false"></span>
+                </button>
+                <ul class="navMenu ms-auto mb-2 mb-lg-0">
+                  <li class="nav-close">
+                    <button class="btn-nav-close">
+                      <span class="close-btn">+</span>
+                    </button>
+                  </li>
+                  <li class="navLi">
+                    <a class="navLink" href="index.html">Home</a>
+                  </li>
+                  <li class="navLi">
+                    <a href="aboutUs.html" class="navLink">About</a>
+                  </li>
+                  <li class="navLi">
+                    <a href="pricing.html" class="navLink">Pricing</a>
+                  </li>
+                  <li class="navLi">
+                    <a href="gallery.html" class="navLink">Gallery</a>
+                  </li>
+                  <li class="navLi">
+                    <a href="videos.html" class="navLink">Videos</a>
+                  </li>
+                  <li class="navLi">
+                    <a href="contactUs.html" class="navLink">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+
+        </div>
+      </div>
+    </header> 
+    <!-- header start -->
+
+  <!-- banner start -->
+<section id="headBelowContent" class="newBanner videoPage0">
+  <div class="container">
+    <h1 class="display-3">Videos</h1>
+  </div>
+</section>
+  <!-- banner start End-->
+
+<section class="videosList defaultPadding">
+  <div class="container">
+    <h2 class="secH mb-2 text-center">Moments in Motion</h2>
+    <p class="maxPara mb-5">A collection of our favorite stories, brought to life through film.</p>
+    
+    <!-- Main Featured Video Player -->
+    <div id="video-player-section">
+        <div class="featured-video ratio ratio-16x9">
+            <video id="featuredVideo" 
+                   class="w-100" 
+                   controls 
+                   controlsList="nodownload"
+                   preload="metadata">
+                <source src="https://res.cloudinary.com/dticzwbrv/video/upload/v1763006999/Rinku_Hiren_Baby_Shower_orsswh.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <h3 id="featuredVideoTitle" class="video-title thirdH">Rinku & Hiren Baby Shower Celebration</h3>
+    </div>
+    
+    <!-- Scrollable Video Playlist -->
+    <div class="playlist">
+    <!-- Video 1 - Baby Shower -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763006999/Rinku_Hiren_Baby_Shower_orsswh.mp4"
+         data-video-title="Rinku & Hiren Baby Shower Celebration"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="https://img.youtube.com/vi/kvF2_9H7m04/mqdefault.jpg" alt="Thumbnail for Rinku & Hiren Baby Shower Celebration" class="img-fluid">
+        <p class="thumb-title">Rinku & Hiren Baby Shower Celebration</p>
+    </div>
+    <!-- Video 6 - Wedding -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763036218/Arsh_And_Lovi_Wedding_ne907g.mp4"
+         data-video-title="Destined Hearts: The Wedding Day"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="image/ArshAndLoviWeddingThumb.webp" alt="Thumbnail for A Cinematic Wedding" class="img-fluid">
+        <p class="thumb-title">Destined Hearts: The Wedding Day</p>
+    </div>
+    <!-- Video 7 - Wedding -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763036199/Mayur_And_Devanshi_Pre-Wedding_maoovo.mp4"
+         data-video-title="Pre-Wedding Memories in Motion"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="image/MayurAndDevanshi_Pre_WeddingThumb.webp" alt="Thumbnail for A Cinematic Wedding" class="img-fluid">
+        <p class="thumb-title">Pre-Wedding Memories in Motion</p>
+    </div>
+    
+    <!-- Video 2 - Garba Event -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763006752/Aditya_Gadhvi_Final_Garba_event_dzrpfr.mp4"
+         data-video-title="Traditional Garba Night Celebration"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="https://img.youtube.com/vi/Vw6wzUzgSFU/mqdefault.jpg" alt="Thumbnail for Traditional Garba Night" class="img-fluid">
+        <p class="thumb-title">Traditional Garba Night Celebration</p>
+    </div>
+
+    <!-- Video 3 - Proposal -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763006600/propose_Video_n1mz7q.mp4"
+         data-video-title="A Romantic Proposal Story"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="https://img.youtube.com/vi/3MO_CHFvezc/mqdefault.jpg" alt="Thumbnail for A Romantic Proposal" class="img-fluid">
+        <p class="thumb-title">A Romantic Proposal Story</p>
+    </div>
+
+    <!-- Video 4 - Wedding -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763006653/Shivani_JApam_Teaser_im2csh.mp4"
+         data-video-title="A Cinematic Wedding Journey"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="https://img.youtube.com/vi/zoPveWSRVm4/mqdefault.jpg" alt="Thumbnail for A Cinematic Wedding" class="img-fluid">
+        <p class="thumb-title">A Cinematic Wedding Journey</p>
+    </div>
+    <!-- Video 5 - Wedding -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1763036291/Jigarbhai_Final_eha0vr.mp4"
+         data-video-title="Baby Shower Celebration"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="image/JigarbhaiBabyShower.webp" alt="Thumbnail for A Cinematic Wedding" class="img-fluid">
+        <p class="thumb-title">Baby Shower Celebration</p>
+    </div>
+    <!-- Video 6 - Wedding -->
+    <div class="video-thumb" 
+         data-video-url="https://res.cloudinary.com/dticzwbrv/video/upload/v1766740194/ReeyaAndVaishal_r2tlsv.mp4"
+         data-video-title="Baby Shower Celebration"
+         onclick="changeVideo(this)">
+        <img loading="lazy" src="https://res.cloudinary.com/dticzwbrv/video/upload/q_auto/v1766740194/ReeyaAndVaishal_r2tlsv.jpg" alt="Thumbnail for A Cinematic Wedding" class="img-fluid">
+        <p class="thumb-title">Baby Shower Celebration</p>
+    </div>
+    
+</div>
+  </div>
+</section>
+
+
+
+<div id="fabContainer">
+
+</div>
+
+
+
+    <!-- footer section start  -->
+    <footer id="footer" class="footer">
+
+    </footer>
+    <!-- footer section end  -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript to Handle Video Switching -->
+<script>
+  function changeVideo(element) {
+        const featuredVideo = document.getElementById('featuredVideo');
+        const featuredVideoTitle = document.getElementById('featuredVideoTitle');
+        const videoSource = featuredVideo.querySelector('source');
+        
+        // Get URL and title from data attributes
+        const cloudinaryUrl = element.dataset.videoUrl;
+        const title = element.dataset.videoTitle;
+        
+        // Pause current video
+        featuredVideo.pause();
+        
+        // Update video source
+        videoSource.src = cloudinaryUrl;
+        
+        // Update title
+        featuredVideoTitle.textContent = title;
+        
+        // Load and play new video
+        featuredVideo.load();
+        featuredVideo.play();
+        
+        // Scroll with 140px offset
+        const videoSection = document.getElementById('video-player-section');
+        const elementPosition = videoSection.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - 100;
+        
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    }
+
+    window.addEventListener('load', (event) => {
+    const video = document.getElementById('featuredVideo');
+    // Mute the video to comply with autoplay policies
+    video.muted = true; 
+    
+    // Attempt to play the video
+    const playPromise = video.play();
+
+    if (playPromise !== undefined) {
+        playPromise.then(() => {
+            // Autoplay started successfully
+            console.log("Video started playing automatically.");
+        }).catch(error => {
+            // Autoplay was prevented
+            console.log("Autoplay prevented:", error);
+            // Optionally, show a play button to the user
+        });
+    }
+});
+</script>
+
+    <script defer src="js/script.js"></script>
+  </body>
+</html>

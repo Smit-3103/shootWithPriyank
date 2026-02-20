@@ -1,0 +1,343 @@
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {
+
+
+  .textPart1 {
+    padding: 30px 40px;
+  }
+
+}
+
+@media (max-width: 1024.98px) {
+
+  .slider1 {
+    background: linear-gradient(to right, #0000009c 40%, #0000009c) center/cover, url('../image/BannerMob1.webp') center / cover no-repeat;
+  }
+
+  .slider2 {
+    background: linear-gradient(to right, #0000009c 40%, #0000009c) center/cover, url('../image/BannerMob2.webp') center / cover no-repeat;
+  }
+
+  .slider3 {
+    background: linear-gradient(to right, #0000009c 40%, #0000009c) center/cover, url('../image/BannerMob3.webp') center / cover no-repeat;
+  }
+
+  .styledParaBanner {
+    background: linear-gradient(to right, #18181849 60%, #00000000);
+    font-size: 14px;
+  }
+
+  .slide-content {
+    position: absolute;
+    top: unset;
+    bottom: 14%;
+    left: 0%;
+    right: 0;
+    transform: unset;
+    color: #fff;
+  }
+
+
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
+
+  /* Styles for Google Nest Hub in landscape */
+  .slider1 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner1.webp') center / cover no-repeat;
+  }
+
+  .slider2 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner2.webp') center / cover no-repeat;
+  }
+
+  .slider3 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner3.webp') center / cover no-repeat;
+  }
+
+  .categoriesCard .fifthH {
+    padding: 8px 0;
+  }
+
+}
+
+
+@media (max-width: 991.98px) {
+
+
+  .footer .container>.row {
+    row-gap: 30px;
+  }
+
+  .navLink {
+    color: var(--lightGrey);
+    padding: 12px 8px;
+  }
+
+  .navLink.active {
+    color: #ffffff;
+  }
+
+  .navMenu {
+    gap: 4px;
+  }
+
+
+  .textPart1 {
+    margin-left: unset;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .footer,
+  .footer .secH {
+    text-align: center;
+  }
+
+  .defaultPadding {
+    padding: 50px 0;
+  }
+
+  .aboutMe.PricingPage0 {
+    padding: 50px 0;
+  }
+
+  .footer.defaultPadding {
+    padding: 34px 0;
+  }
+
+  .footer .secH {
+    margin-bottom: 24px;
+  }
+
+  .footWrap>.row {
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+    flex-direction: column;
+  }
+
+  .footer .social-icons {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .footer .exploreLinks ul li,
+  .footer .exploreLinks1 ul li {
+    text-align: left;
+  }
+
+  .footer-brand {
+    display: table !important;
+    margin: auto;
+  }
+
+  .footer .locationLink {
+    max-width: 304px;
+  }
+
+  .footer .exploreLinks1 ul {
+    max-width: 352px;
+    margin: auto;
+  }
+
+  .footer .exploreLinks ul {
+    width: 203px;
+    max-width: 203px !important;
+    margin: auto;
+  }
+
+  .footer ul.contact-info {
+    width: 318.5px;
+    max-width: 318.5px;
+  }
+
+  .footer.homePage0 {
+    padding-top: 123px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .all-activities-filters {
+    flex-wrap: wrap;
+    gap: 8px 8px;
+  }
+
+  .all-activities-filters .btn {
+    margin: 0;
+  }
+
+  .all-activities-filters.btn-group>.btn:first-child {
+    border-radius: 0 !important;
+  }
+
+  .all-activities-filters.btn-group>.btn:last-child {
+    border-radius: 0 !important;
+  }
+
+  .all-activities-title {
+    font-size: 16px;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: calc(50% - 24px);
+    ;
+  }
+
+  .categoriesCard .fifthH {
+    padding: 4px 0;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+
+
+  .footer .fourthH {
+    margin-bottom: 20px;
+  }
+
+
+  .mySwiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .ourMissionCard {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+    ;
+  }
+
+  .gutter-sizer {
+    width: 0;
+  }
+
+  .servicesSection {
+    background: linear-gradient(#00000042, #00000042) center/cover no-repeat, url('../image/serviceBackground.webp') center/cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .servicesSection {
+    text-align: center;
+  }
+
+  .servicesSection .maxPara {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contactSection {
+    background: url('../image/HomeContactBack.webp') top right -160px /cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .contactSection.contactPage0 {
+    background: url('../image/contactBack.webp') top 0 left -150px/cover no-repeat;
+    background-attachment: fixed;
+  }
+
+  .servicesSwiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .seperator1 {
+    background: linear-gradient(#000000a4, #000000a4) 0 0 / cover, url('../image/aboutSeperator.webp') top 0 right -700px/cover no-repeat;
+  }
+
+  .newBanner.videoPage0 {
+    background: linear-gradient(#000000a4, #000000a4) 0 0 / cover, url('../image/VideoGraphy.webp') center/cover no-repeat;
+  }
+
+  .newBanner.contactPage0 {
+    background: linear-gradient(#000000a4, #000000a4) 0 0 / cover, url('../image/contactBannerMob.webp') center/cover no-repeat;
+  }
+
+  .secSeperator {
+    padding: 50px 0;
+  }
+
+  .textPart1 {
+    padding: 12px 16px;
+  }
+
+  .mapSection iframe {
+    margin-bottom: -6px;
+    height: 500px;
+  }
+
+  .contactcardinfo {
+    max-width: unset;
+    min-height: unset;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+    ;
+  }
+
+  .gutter-sizer {
+    width: 0;
+  }
+
+  .video-thumb .thumb-title {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-height: 539.98px) {
+
+  .mySwiper {
+    min-height: 400px;
+  }
+}
+
+@media only screen and (max-height: 539.98px) and (max-width: 1024px) {
+
+
+  .mySwiper {
+    min-height: 400px;
+  }
+
+  .slider1 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner1.webp') center / cover no-repeat;
+  }
+
+  .slider2 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner2.webp') center / cover no-repeat;
+  }
+
+  .slider3 {
+    background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner3.webp') center / cover no-repeat;
+  }
+
+}
+
+@media (max-width: 426.98px) {
+  .seperator1 {
+    background: linear-gradient(#000000a4, #000000a4) 0 0 / cover, url('../image/aboutSeperator.webp') top 0 right -950px/cover no-repeat;
+  }
+
+  .contactInfo .container>.row {
+    justify-content: start;
+  }
+
+}
